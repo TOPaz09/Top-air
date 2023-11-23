@@ -40,6 +40,7 @@ pilot_txt_vtcc = rws.skew_t_create(P3, T3, Td3, Wd3, Ws3)
 pilot_txt_vtcc.plot_skew_t("Output_name_2", dest_file_output, "15-11-2023", "15:23", name_location="Chiang maistaion",
 size=[14, 8],y_limit=200,x_limit=[-20, 40], hodo_color=True,pacel_prof_plot = True,cape_cin_plot = True)
 ```
+![alt text](https://github.com/TOPaz09/Top-air/blob/main/top_air/example_output/Output_name_2.png?raw=true)
 
 [Read and decode Upper-Air code file]
 - Use rawindsonde or pilot code to create skew-t, hodograph.
@@ -54,6 +55,7 @@ P4, T4, Td4, Pb4, Wd4, Ws4 = pilot_code.data_merge(press_limit=25)
 pilot_code_plt.plot_skew_t("decode_data", "example_output\\", "16-11-2023", "00:00", name_location="title name",
 show_skt=False, hodo_itv=[2, 2, 2],press_barb=Pb4, wd_barb=Wd4, ws_barb=Ws4, hodo_color=True, size=[14, 8])
 ```
+![alt text](https://github.com/TOPaz09/Top-air/blob/main/top_air/example_output/decode_data.png?raw=true)
 
 [Read wind profiler file in csv format]
 - Use csv from wind profiler to filter and make data template.
@@ -67,6 +69,7 @@ wpfl_csv_vtcc.plot_skew_t("wind_profiler_output", "example_output\\", "17-11-202
 y_limit=200, show_skt=False,press_barb=Pb5, wd_barb=Wd5, ws_barb=Ws5,brab_itv=[5, 5, 5], x_limit=[-20, 40], 
 size=[8, 6],hodo_color=True)
 ```
+![alt text](https://github.com/TOPaz09/Top-air/blob/main/top_air/example_output/wind_profiler_output.png?raw=true)
 
 - you can use your data from different format file by copy and paste data instead example input file.
 
