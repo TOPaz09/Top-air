@@ -27,6 +27,8 @@ P2, T2, Td2, Wd2, Ws2 = rws.rawindsonde_txt(CM_SIGLVLS_name, souce_file_input).d
 pilot_txt_vtcc = rws.skew_t_create(P2, T2, Td2, Wd2, Ws2)
 pilot_txt_vtcc.plot_skew_t("Output_name_1", dest_file_output, "15-11-2023", "15:23",name_location="Chiang maistaion", size=[14, 8])
 ```
+![alt text](https://raw.githubusercontent.com/TOPaz09/Top-air/main/top_air/example_output/Output_name_1.png)
+
 [Select data range]
 - You can limit pressure level and make out put data to csv or excel by use parameter just like this code.
 ```python
