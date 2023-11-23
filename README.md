@@ -66,6 +66,6 @@ y_limit=200, show_skt=False,press_barb=Pb5, wd_barb=Wd5, ws_barb=Ws5,brab_itv=[5
 size=[8, 6],hodo_color=True)
 ```
 
-- you can use your data from different format file by copy and paste data instead example input file and enjoy with this library.
+- you can use your data from different format file by copy and paste data instead example input file.
 
 Develop by Supaporn Noisen
