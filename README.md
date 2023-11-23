@@ -8,7 +8,7 @@ Skew-t, hodograph, wind brab and indicators use MetPy library (https://pypi.org/
 
 ### How to use?
 - Download top_air.py and condition.py to your project folder
-- import file
+- Import file
 ```python
 import top_air as rws
 ```
